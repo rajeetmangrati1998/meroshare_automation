@@ -2,6 +2,7 @@ name: Meroshare automation
 on:
     schedule:
         - cron: "27 3 * * *"
+    workflow-dispatch
 jobs:
   cypress-run:
     runs-on: ubuntu-22.04
